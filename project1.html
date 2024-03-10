@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-container{
+            margin: auto;
+            background-image: linear-gradient(pink, blue);
+            display: grid;
+            grid-template-columns: repeat(2 ,1fr);
+            border: 2px solid black;
+            max-width: 1200px;
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+        }
+        .item-1{
+            /* text-align: center; */
+           
+            padding: 0px 50px;
+        }
+        .item-1 h1{
+            font-size: 40px;
+            color: #161627;
+        }
+        .item-1 p{
+            font-size: 18px;
+            color: antiquewhite;
+            
+        }
+        .item-2{
+            background-color: #7e7eff;
+            height: 100%;
+            /* margin-top: 10px; */
+            max-width: 90vh;
+           
+        }
+        img{
+            height: 100%;
+            width: 70%;
+        }
+        .btn{
+            background-color: #161627;
+            padding: 10px 50px;
+            color: aliceblue;
+            font-size: larger;
+            margin-top: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="item-1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolorum ab quod aliquid est, quia consectetur delectus quaerat sapiente asperiores praesentium ducimus non deserunt cumque earum recusandae molestias voluptate illum nemo doloribus amet voluptas quisquam, ipsa incidunt? Aut qui consequatur iusto adipisci praesentium debitis illo, officiis, enim quo magni dolor..</p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="item-2">
+            <img src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=" alt="food image">
+        </div>
+    </div>
+</body>
+</html>
